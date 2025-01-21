@@ -16,7 +16,7 @@ Install all the ros2 humble turtlebot3 packages
 ```
 mkdir -p ~/turtlebot3_ws/src
 cd ~/turtlebot3_ws/src
-git clone https://github.com/Ruiji-Liu/turtlebot3_simulations.git
+git clone https://github.com/avcs2019/Intelligent-Robot-System.git
 cd ~/turtlebot3_ws
 colcon build
 source install/setup.bash
