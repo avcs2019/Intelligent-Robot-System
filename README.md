@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d6045ced-80af-468d-b999-3ef626ec2814)# Turtlebot3 Gazebo World
+# Turtlebot3 Gazebo World
 ## Install gazebo and gazebo_ros packages
 ```
  sudo apt install gazebo
