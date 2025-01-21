@@ -21,6 +21,11 @@ cd ~/turtlebot3_ws
 colcon build
 source install/setup.bash
 ```
+## Export turtlebot model
+```
+export TURTLEBOT3_MODEL=burger
+```
+
 ## Launch the world
 ```
 ros2 launch turtlebot3_gazebo turtlebot3_test.launch.py
