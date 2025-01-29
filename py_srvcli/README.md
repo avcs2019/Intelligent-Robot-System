@@ -6,7 +6,7 @@ Repo for ros2 service -  client service:
 
 $ sudo apt install ros-humble-example_interfaces
 
-example descrition: The client send two int64 variables, and the server returns the sum. 
+example description: The client send two int64 variables, and the server returns the sum. 
 
 $ ros2 run py_srvcli service     # to run the server
 
