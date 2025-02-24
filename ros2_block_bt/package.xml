@@ -9,7 +9,14 @@
 
   <depend>py_trees</depend>
   <depend>py_trees_ros</depend>
+  <depend>py_trees_ros_interfaces</depend>
   <depend>rclpy</depend>
+  <depend>message_filters</depend>
+  <depend>sensor_msgs</depend>
+
+<!--  <exec_depend>rclpy</exec_depend>-->
+<!--  <exec_depend>message_filters</exec_depend>-->
+<!--  <exec_depend>sensor_msgs</exec_depend>-->
 
   <export>
     <build_type>ament_python</build_type>

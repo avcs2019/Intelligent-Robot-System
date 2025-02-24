@@ -6,7 +6,7 @@ setup(
     name=package_name,
     version='0.1.0',
     packages=[package_name],
-    install_requires=['py_trees', 'py_trees_ros', 'setuptools'],
+    install_requires=['py_trees', 'py_trees_ros', 'setuptools', 'message_filters', 'sensor_msgs'],
     zip_safe=True,
     maintainer='Your Name',
     maintainer_email='you@example.com',
@@ -15,8 +15,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'run_bt1 = ros2_block_bt.behavior_tree1:main',
-            'run_bt2 = ros2_block_bt.behavior_tree2:main',
+            'run_bt0 = ros2_block_bt.behavior_tree:main',
         ],
     },
 )
